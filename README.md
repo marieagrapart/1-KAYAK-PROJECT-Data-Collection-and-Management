@@ -20,13 +20,13 @@ It'a a student project with the following context and gloas :
 - Extract, transform and load cleaned data from your datalake to a data warehouse 
 
 
-### Prerequisites
+## Prerequisites
 
 You will need : 
 - all the libraries in requirement.txt 
 - Credendials for AWS S3 and RDS 
 
-### Installing
+## Installing
 
 Once you have the prerequisites, 
 You can run files in the order, in other words : 
@@ -41,14 +41,7 @@ Finally:
 You will have your raw data from API & scrapping in S3 and cleaned sql table in RDS. 
 At the end for the third file, you will see two maps with the top 5 cities : one about the weather and one about best hotels
 
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
 ## Authors
 
-* **Marie Agrapart** 
+**Marie Agrapart** 
 
