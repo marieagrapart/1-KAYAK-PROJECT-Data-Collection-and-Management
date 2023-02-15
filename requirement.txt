@@ -1,0 +1,11 @@
+pandas
+requests
+json
+time
+plotly.io
+plotly.express
+plotly.graph_objects as go
+datetime
+typing
+boto3
+os
