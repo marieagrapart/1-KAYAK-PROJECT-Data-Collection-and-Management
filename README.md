@@ -6,18 +6,18 @@ Certification:
 It'a a student project with the following context and gloas : 
 
 <sup> *Kayak Marketing Team would like to create an application that will recommend where people should plan their next holidays. The application should be based on real data about:*
- - Weather
- - Hotels in the area
-*The application should then be able to recommend the best destinations and hotels based on the above variables at any given time*
+<sup> - Weather
+<sup> - Hotels in the area
+<sup>*The application should then be able to recommend the best destinations and hotels based on the above variables at any given time*
 
 #### Goals 
-*As the project has just started, your team doesn't have any data that can be used to create this application. Therefore, your job will be to:*
+<sup>*As the project has just started, your team doesn't have any data that can be used to create this application. Therefore, your job will be to:*
 
-- Scrape data from destinations
-- Get weather data from each destination
-- Get hotels' info about each destination
-- Store all the information above in a data lake
-- Extract, transform and load cleaned data from your datalake to a data warehouse 
+<sup>- Scrape data from destinations
+<sup>- Get weather data from each destination
+<sup>- Get hotels' info about each destination
+<sup>- Store all the information above in a data lake
+<sup>- Extract, transform and load cleaned data from your datalake to a data warehouse 
 </sup>
 
 ## Prerequisites
