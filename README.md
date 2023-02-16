@@ -10,7 +10,7 @@ It'a a student project with the following context and gloas :
 - *Hotels in the area*
 *The application should then be able to recommend the best destinations and hotels based on the above variables at any given time*
 
-##### Goals 
+**Goals** 
 *As the project has just started, your team doesn't have any data that can be used to create this application. Therefore, your job will be to:*
 
 - *Scrape data from destinations*
@@ -41,7 +41,7 @@ Finally:
 You will have your raw data from API & scrapping in S3 and cleaned sql table in RDS. 
 At the end for the third file, you will see two maps with the top 5 cities : one about the weather and one about best hotels
 
-*The top cities was chosen by the best temperature and the less precipitation* 
+*The top cities was chosen by best temperature and less precipitation* 
 
 ## Authors
 
