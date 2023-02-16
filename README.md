@@ -10,7 +10,7 @@ It'a a student project with the following context and gloas :
 - *Hotels in the area*
 *The application should then be able to recommend the best destinations and hotels based on the above variables at any given time*
 
-**Goals** 
+***Goals*** 
 *As the project has just started, your team doesn't have any data that can be used to create this application. Therefore, your job will be to:*
 
 - *Scrape data from destinations*
