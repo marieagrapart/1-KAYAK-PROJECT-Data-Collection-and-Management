@@ -1,7 +1,6 @@
 # 1-KAYAK-PROJECT-Data-Collection-and-Management 
 
-Video:
-Certification:
+### Video: https://share.vidyard.com/watch/d4aZ1JKYDwQyGsBXBYzo8z?
 
 It'a a student project with the following context and gloas : 
 
