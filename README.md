@@ -37,7 +37,7 @@ You can run files in the order, in other words :
 You will have your raw data from API & scrapping in S3 and cleaned sql table in RDS. 
 At the end for the third file, you will see two maps with the top 5 cities : one about the weather and one about best hotels
 
-*The top cities was chosen by best temperature and less precipitation* 
+*The top cities was chosen by first less precipitation and best temperature* 
 
 ## Authors
 
