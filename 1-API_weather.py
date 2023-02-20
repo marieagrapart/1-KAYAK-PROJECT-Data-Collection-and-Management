@@ -114,7 +114,7 @@ city_weather_by_day = (
     .agg(
         {
             "main_weather": [pd.Series.mode],
-            "precipitatoin": ["sum"],
+            "precipitation": ["sum"],
             "temperature": ["mean"],
             "latitude": ["mean"],
             "longitude": ["mean"],
@@ -142,15 +142,9 @@ os.chdir(path)
 
 Top_5_city.to_csv("top_5_city_name.csv", index=False)
 
-print(city_weather_by_day.head())
-print(Top_5_city.head())
-
-# Filter on top 5cities
+# Filter on top 5 cities
 
 city_weather_top_5 = city_weather_by_day[city_weather_by_day["city"].isin(Top_5_city)]
-
-print(city_weather_by_day.head())
-
 
 # send the data in our S3
 
