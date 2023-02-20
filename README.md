@@ -1,4 +1,4 @@
-# 1-KAYAK-PROJECT-Data-Collection-and-Management
+# 1-KAYAK-PROJECT-Data-Collection-and-Management 
 
 Video:
 Certification:
@@ -24,7 +24,7 @@ It'a a student project with the following context and gloas :
 
 You will need : 
 - all the libraries in requirement.txt 
-- Credendials for AWS S3 and RDS 
+- Credendials for AWS S3 and RDS : one file "secrets.sh" for S3 credentials and "secrets.json" for RDS credentials
 
 ## Installing
 
