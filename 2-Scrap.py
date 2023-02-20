@@ -17,8 +17,8 @@ class QuotesSpider(scrapy.Spider):
 
     #we create a loop over our top 5 cities 
     def parse(self, response):
-        city_name = pd.read_csv('top_5_city_name.csv', names= ['city'])
-        cities = [x.strip() for x in city_name['city']]
+        top_5_city = pd.read_csv('data/top_5_city_name.csv')
+        cities = top_5_city['city'].values.tolist()
         for city in cities:
             yield scrapy.FormRequest.from_response(response, formdata={'ss': city}, callback=self.parse_city)
 
@@ -47,7 +47,7 @@ class QuotesSpider(scrapy.Spider):
         }
 
 # Name of the file where the results will be saved
-filename = "booking_test.json"
+filename = "booking.json"
 
 # If file already exists, delete it before crawling (because Scrapy will 
 # concatenate the last and new results otherwise)
@@ -80,8 +80,10 @@ s3 = session.resource("s3")
 
 bucket = s3.create_bucket(Bucket="booking-scapping")
 
-df = pd.read_json('data/booking_test.json')
+df = pd.read_json('data/booking.json')
 print(df.head())
 csv = df.to_csv()
 
-put_object = bucket.put_object(Key="hotels_info.csv", Body=csv)
+bucket.put_object(Key="hotels_info.csv", Body=csv)
+
+print('We got the top hotels and their infos in our data folder !')

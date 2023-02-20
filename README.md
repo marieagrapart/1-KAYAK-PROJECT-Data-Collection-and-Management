@@ -24,19 +24,16 @@ It'a a student project with the following context and gloas :
 
 You will need : 
 - all the libraries in requirement.txt 
-- Credendials for AWS S3 and RDS : one file "secrets.sh" for S3 credentials and "secrets.json" for RDS credentials
+- Credendials for AWS S3 and RDS : one file *secrets.sh* for S3 credentials and *secrets.json* for RDS credentials
 
 ## Installing
 
 Once you have the prerequisites, 
 You can run files in the order, in other words : 
-
-First : 
-"1.API_weather.ipynb"
-Then :
-"2.Scrap.py"
-Finally: 
-"3.visualization.ipynb"
+ 
+- *1.API_weather.ipynb*
+- *2.Scrap.py*
+- *3.visualization.ipynb*
 
 You will have your raw data from API & scrapping in S3 and cleaned sql table in RDS. 
 At the end for the third file, you will see two maps with the top 5 cities : one about the weather and one about best hotels
