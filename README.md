@@ -22,7 +22,7 @@ It'a a student project with the following context and gloas :
 ## Prerequisites
 
 You will need : 
-- pip install requirement.txt 
+- pip install -r requirements.txt 
 - Credendials for AWS S3 and RDS : one file *secrets.sh* for S3 credentials and *secrets.json* for RDS credentials
 
 ## Installing
